@@ -28,7 +28,7 @@
 	>
 		{#key url}
 			<div
-				in:fly={{ y: 10, duration: 500, delay: 1000, opacity: 0 }}
+				in:fly={{ y: 10, duration: 500, delay: 500, opacity: 0 }}
 				out:fade={{ duration: 500 }}
 			>
 				<slot />
