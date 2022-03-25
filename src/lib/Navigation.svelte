@@ -49,8 +49,7 @@
 <div
 	data-page={pageName}
 	style={$mobile ? `padding: ${padding}px` : ""}
-	class="bg-white flex py-14 nav-wrapper items-center header-wrapper sticky relative sm:container sm:mx-auto <sm:p-8"
-	before="text-grey-82 flex absolute bg-no-repeat pt-38 write-vertical-left -left-14 lg:-left-24 top-0 leading-4 text-15px tracking-1em uppercase content-[attr(data-page)] whitespace-nowrap"
+	class="bg-white flex py-14 nav-wrapper items-center header-wrapper sticky relative sm:container sm:mx-auto <sm:p-8 before:bg-no-repeat before:flex before:pt-38 before:top-0 before:-left-14 before:text-grey-82 before:text-15px before:leading-4 before:tracking-1em before:absolute before:write-vertical-left before:uppercase before:content-[attr(data-page)] before:whitespace-nowrap lg:before:-left-24"
 >
 	<Logo />
 	<BurgerButton {active} on:click={toggleMenu} />

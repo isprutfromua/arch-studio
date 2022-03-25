@@ -4,19 +4,16 @@
 
 <a
 	href="/portfolio"
-	sveltekit:prefetch
 	class:active={url.pathname === "/portfolio"}
 	class="hover:text-dark focus:text-dark ">Portfolio</a
 >
 <a
 	href="/about-us"
-	sveltekit:prefetch
 	class:active={url.pathname === "/about-us"}
 	class="hover:text-dark focus:text-dark">About Us</a
 >
 <a
 	href="/contact"
-	sveltekit:prefetch
 	class:active={url.pathname === "/contact"}
 	class="hover:text-dark focus:text-dark">Contact</a
 >
