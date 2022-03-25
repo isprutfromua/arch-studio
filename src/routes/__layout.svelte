@@ -3,9 +3,6 @@
 </script>
 
 <script>
-	import "@fontsource/spartan/700.css";
-	import "@fontsource/spartan/500.css";
-
 	import Navigation from "$lib/Navigation.svelte";
 	import Footer from "$lib/Footer.svelte";
 
@@ -52,5 +49,19 @@
 
 	:global(html) {
 		scroll-behavior: smooth;
+	}
+
+	@font-face {
+		font-family: "Spartan";
+		font-weight: 500;
+		font-display: swap;
+		src: url("/spartan/Spartan-Medium.ttf");
+	}
+
+	@font-face {
+		font-family: "Spartan";
+		font-weight: bold;
+		font-display: swap;
+		src: url("/spartan/Spartan-Bold.ttf");
 	}
 </style>
