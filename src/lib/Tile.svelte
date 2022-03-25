@@ -10,7 +10,7 @@
 <section
 	class="text-white relative"
 	before="transition inset-0 duration-300  absolute content-DEFAULT hover:opacity-0 "
-	after="font-bold opacity-50 transition top-4 right-4 text-12.5rem -tracking-5px duration-300 absolute {tileNumbers
+	after="font-bold opacity-50 transition top-9 -right-2 text-12.5rem -tracking-5px duration-300 absolute {tileNumbers
 		? '<sm:hidden'
 		: 'hidden'} hover:opacity-0"
 >

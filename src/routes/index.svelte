@@ -19,7 +19,7 @@
 	<title>Homepage</title>
 </svelte:head>
 
-<div class="mb-18 sm:container sm:mx-auto xl:mb-50 ">
+<div class="mb-18 sm:container sm:mx-auto xl:mb-27 ">
 	<Carousel />
 </div>
 
@@ -48,7 +48,7 @@
 	/>
 </div>
 
-<div class="container mx-auto mb-18 sm:mb-50 <sm:flex <sm:flex-col <sm:px-8">
+<div class="container mx-auto mb-18 sm:mb-45 <sm:flex <sm:flex-col <sm:px-8">
 	<Features />
 </div>
 

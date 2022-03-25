@@ -14,7 +14,7 @@
 >
 	{#if bannerStyle == "large"}
 		<h1
-			class="font-bold text-white leading-tight max-w-125 text-5xl -tracking-2px sm:leading-none sm:text-5rem"
+			class="font-bold text-white leading-tight max-w-125 text-5xl -tracking-2px sm:leading-none sm:text-5rem lg:-mt-2"
 		>
 			{@html bannerText}
 		</h1>
@@ -31,7 +31,7 @@
 		</p>
 	{/if}
 	{#if bannerCtaLink && bannerCtaText}
-		<div class="mt-8">
+		<div class="mt-11">
 			<Button buttonLink={bannerCtaLink} buttonText={bannerCtaText} />
 		</div>
 	{/if}

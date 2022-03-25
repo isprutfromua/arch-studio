@@ -9,7 +9,7 @@
 		class="bg-no-repeat flex flex-col pb-12 gap-y-8 items-center footer-bg md:(flex-row pb-0 gap-y-0 gap-x-8) "
 	>
 		<div
-			class="bg-dark flex h-30 text-white  w-30  items-center justify-center xl:(w-50 h-50) "
+			class="bg-dark flex h-30 text-white  w-30  items-center justify-center xl:(w-50 h-50) xl:mr-13"
 		>
 			<Logo />
 		</div>
