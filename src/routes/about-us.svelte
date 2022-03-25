@@ -16,27 +16,24 @@
 
 <!-- About -->
 <div
-	class="flex flex-col-reverse welcome-banner relative sm:container sm:flex-row sm:mx-auto sm:mb-50 sm:min-h-720px sm:items-end <sm:mb-18 after:content-DEFAULT"
-	after="h-15rem sm:h-720px w-full lg:w-635px sm:absolute bg-cover bg-no-repeat overflow-hidden left-0 bottom-0 -z-1 bg-bottom"
+	class="flex flex-col-reverse welcome-banner relative sm:container sm:flex-row sm:mx-auto sm:mb-50 sm:min-h-720px sm:items-end <sm:mb-18 after:bg-cover after:bg-no-repeat after:bg-bottom after:h-15rem after:w-full after:bottom-0 after:left-0 after:-z-1 after:content-DEFAULT after:overflow-hidden sm:after:h-720px sm:after:absolute lg:after:w-635px"
 >
 	<div
-		class="bg-white relative sm:ml-auto sm:w-lg sm:pt-22 <sm:px-8 lg:w-screen-sm lg:pt-40"
-		after="<sm:content-DEFAULT bg-white absolute w-11/12 h-11 left-0 top-1 transform -translate-y-full"
+		class="bg-white relative sm:ml-auto sm:w-lg sm:pt-22 <sm:px-8 lg:w-screen-sm lg:pt-40 after:bg-white after:h-11 after:transform after:-translate-y-full after:top-1 after:left-0 after:w-11/12 after:absolute <sm:after:content-DEFAULT"
 	>
 		<div
 			class=" transform -translate-y-1/2 absolute sm:top-0 sm:right-0 lg:-left-6"
 		>
 			<Title titleText={welcomeSection.title} />
 		</div>
-		<div
-			class="pt-35px relative sm:ml-14 sm:pt-17 lg:(max-w-md ml-48 box-content) "
-			before="hidden sm:block content-DEFAULT bg-grey-82 h-1px w-16 absolute left-0 top-0"
+		<section
+			class="pt-35px relative sm:ml-14 sm:pt-17 lg:(max-w-md ml-48 box-content) before:bg-grey-82 before:h-1px before:top-0 before:left-0 before:w-16 before:hidden before:content-DEFAULT before:absolute sm:before:block "
 		>
 			<Content
 				contentHead={welcomeSection.head}
 				contentText={welcomeSection.text}
 			/>
-		</div>
+		</section>
 	</div>
 </div>
 <!-- Heritage -->
@@ -44,8 +41,7 @@
 	class="flex mb-18 justify-between sm:container sm:mx-auto sm:mb-50 <sm:px-8 lg:gap-32 "
 >
 	<div
-		class="flex flex-col pt-16 relative lg:max-w-27.87rem"
-		before="content-DEFAULT bg-grey-82 h-1px w-16 absolute left-0 top-0"
+		class="flex flex-col pt-16 relative lg:max-w-27.87rem before:bg-grey-82 before:h-1px before:top-0 before:left-0 before:w-16 before:content-DEFAULT before:absolute"
 	>
 		<Content
 			contentHead={heritageSection.head}

@@ -5,7 +5,7 @@
 	export let buttonText = "See all";
 </script>
 
-<a href={buttonLink} class="btn">
+<a href={buttonLink} class="btn" aria-label={buttonText}>
 	<span>{buttonText}</span>
 	<ArrowIcon />
 </a>

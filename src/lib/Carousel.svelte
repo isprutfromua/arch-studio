@@ -41,7 +41,7 @@
 		{/each}
 	</div>
 
-	<div class="hidden" xl="flex absolute -left-20 bottom-0">
+	<div class="hidden xl:(flex absolute -left-20 bottom-0) ">
 		{#each slideIndexes as slideIndex}
 			<button
 				class="flex font-bold outline-none h-20 transition ease-in-out w-20 items-center justify-center 

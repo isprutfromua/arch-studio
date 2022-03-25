@@ -19,11 +19,11 @@
 </script>
 
 {#if visible}
-	<div in:fade={{ delay: 500, duration: 500 }}>
+	<header in:fade={{ delay: 500, duration: 500 }}>
 		<Navigation {url} />
-	</div>
+	</header>
 
-	<div
+	<main
 		class="min-h-min-100vh w-full grid grid-rows-1 grid-cols-1 anim-container"
 	>
 		{#key url}
@@ -34,7 +34,7 @@
 				<slot />
 			</div>
 		{/key}
-	</div>
+	</main>
 
 	<Footer />
 {/if}

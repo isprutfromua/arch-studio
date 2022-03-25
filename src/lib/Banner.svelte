@@ -9,8 +9,10 @@
 </script>
 
 <section
-	class="bg-center bg-cover flex flex-col pl-8 justify-center items-start sm:(container mx-auto) sm:pl-14 lg:pl-48 "
-	h="35rem {bannerStyle == 'large' ? 'lg:45rem' : ''}"
+	class="bg-center bg-cover flex flex-col pl-8 justify-center items-start sm:(container mx-auto) sm:pl-14 lg:pl-48 h-35rem {bannerStyle ==
+	'large'
+		? 'lg:h-45rem'
+		: ''}"
 >
 	{#if bannerStyle == "large"}
 		<h1

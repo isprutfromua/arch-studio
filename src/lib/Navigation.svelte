@@ -63,10 +63,9 @@
 			class="font-bold bg-grey-95 top-full min-w-343px p-12 right-0 z-10 absolute"
 		>
 			<nav
-				after="transition -bottom-2 block absolute content-DEFAULT w-6 h-1px bg-dark left-0 transition transform translate-x-$position"
 				class="{isHomepage
 					? 'after:opacity-0'
-					: ''} flex sm:flex-row sm:gap-x-12 sm:relative <sm:flex-col <sm:gap-y-8 lg:gap-x-14"
+					: ''} flex sm:flex-row sm:gap-x-12 sm:relative <sm:flex-col <sm:gap-y-8 lg:gap-x-14 after:transition after:-bottom-2 after:block after:absolute after:content-DEFAULT after:w-6 after:h-1px after:bg-dark after:left-0 after:transition after:transform after:translate-x-$position"
 			>
 				<Menu {url} />
 			</nav>
@@ -75,10 +74,9 @@
 	{#if !$mobile}
 		<div class="font-bold ml-19 text-15px text-grey-53 lg:ml-23">
 			<nav
-				after="transition -bottom-2 block absolute content-DEFAULT w-6 h-1px bg-dark left-0 transition transform translate-x-$position"
 				class="{isHomepage
 					? 'after:opacity-0'
-					: ''} flex sm:flex-row sm:gap-x-12 sm:relative <sm:flex-col <sm:gap-y-8 lg:gap-x-14"
+					: ''} flex sm:flex-row sm:gap-x-12 sm:relative <sm:flex-col <sm:gap-y-8 lg:gap-x-14 after:transition after:-bottom-2 after:block after:absolute after:content-DEFAULT after:w-6 after:h-1px after:bg-dark after:left-0 after:transition after:transform after:translate-x-$position"
 			>
 				<Menu {url} />
 			</nav>

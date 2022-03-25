@@ -24,19 +24,17 @@
 </div>
 
 <div
-	class="welcome-banner sm:container sm:mx-auto sm:mb-50 <sm:mt-18 <sm:mb-25 <sm:px-8 xl:relative xl:after:content-DEFAULT"
-	after="h-568px w-350px absolute bg-cover bg-no-repeat overflow-hidden right-0 bottom-0 -z-1 bg-bottom"
+	class="welcome-banner sm:container sm:mx-auto sm:mb-50 <sm:mt-18 <sm:mb-25 <sm:px-8 xl:relative after:bg-cover after:bg-no-repeat after:bg-bottom after:h-568px after:right-0 after:bottom-0 after:w-350px after:-z-1 after:absolute after:overflow-hidden xl:after:content-DEFAULT"
 >
 	<Title titleText={welcomeSection.title} />
-	<div
-		class="<sm:pt-17 <sm:relative xl:(max-w-md pl-48 box-content) "
-		before="<sm:block hidden content-DEFAULT bg-grey-82 h-1px w-16 absolute left-0 top-0"
+	<section
+		class="<sm:pt-17 <sm:relative xl:(max-w-md pl-48 box-content) before:bg-grey-82 before:h-1px before:top-0 before:left-0 before:w-16 before:hidden before:content-DEFAULT before:absolute <sm:before:block "
 	>
 		<Content
 			contentHead={welcomeSection.head}
 			contentText={welcomeSection.text}
 		/>
-	</div>
+	</section>
 </div>
 
 <div class="mb-18 sm:mb-50">

@@ -1,4 +1,4 @@
-<a href="/">
+<a href="/" aria-label="Arch">
 	<svg
 		viewBox="0 0 97 40"
 		fill="none"

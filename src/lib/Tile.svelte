@@ -8,11 +8,9 @@
 </script>
 
 <section
-	class="text-white relative"
-	before="transition inset-0 duration-300  absolute content-DEFAULT hover:opacity-0 "
-	after="font-bold opacity-50 transition top-9 -right-2 text-12.5rem -tracking-5px duration-300 absolute {tileNumbers
-		? '<sm:hidden'
-		: 'hidden'} hover:opacity-0"
+	class="text-white relative before:transition before:inset-0 before:duration-300 before:content-DEFAULT before:absolute hover:before:opacity-0 after:font-bold after:opacity-50 after:transition after:top-9 after:-right-2 after:text-12.5rem after:-tracking-5px after:duration-300 after:absolute {tileNumbers
+		? '<sm:after:hidden'
+		: 'after:hidden'} hover:after:opacity-0"
 >
 	<picture>
 		<source srcset={tileImage.replace("png", "webp")} type="image/webp" />
