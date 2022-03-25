@@ -21,15 +21,13 @@
 </div>
 <div class="mt-12 grid gap-7 sm:mt-21 lg:mt-16 lg:grid-flow-col lg:gap-8 ">
 	{#each featureTiles as { name, image }, index}
-		<div transition:fly={{ x: 20, opacity: 0, delay: (index + 1) * 500 }}>
-			<Tile
-				tileName={name}
-				tileImage={image}
-				--tile-number={index + 1}
-				tileCtaLink="/portfolio"
-				tileCtaText="View All Projects"
-			/>
-		</div>
+		<Tile
+			tileName={name}
+			tileImage={image}
+			--tile-number={index + 1}
+			tileCtaLink="/portfolio"
+			tileCtaText="View All Projects"
+		/>
 	{/each}
 </div>
 
