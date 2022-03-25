@@ -17,7 +17,7 @@
 		activeSlide = slideIndex;
 	}
 
-	if (!browser) {
+	if (browser) {
 		const SLIDING_DELAY = 3000;
 		setInterval(() => {
 			scrollTo(++activeSlide % slides.length);
