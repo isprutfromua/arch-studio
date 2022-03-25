@@ -54,7 +54,7 @@ Users should be able to:
 
 ### Continued development
 
-[ ] Finish with Map on Contact Page
+⬜️ Finish with Map on Contact Page
 
 ## Author
 
