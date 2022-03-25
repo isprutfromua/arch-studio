@@ -51,7 +51,6 @@
 	style={$mobile ? `padding: ${padding}px` : ""}
 	class="bg-white flex py-14 nav-wrapper items-center header-wrapper sticky relative sm:container sm:mx-auto <sm:p-8"
 	before="text-grey-82 flex absolute bg-no-repeat pt-38 write-vertical-left -left-14 lg:-left-19 top-0 leading-4 text-15px tracking-1em uppercase content-[attr(data-page)] whitespace-nowrap"
-	in:fade
 >
 	<Logo />
 	<BurgerButton {active} on:click={toggleMenu} />

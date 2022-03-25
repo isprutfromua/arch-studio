@@ -90,6 +90,6 @@
 				rgba(0, 0, 0, 0.5),
 				rgba(0, 0, 0, 0.5)
 			),
-			url("/about/laptop.png");
+			url("/about/laptop.webp");
 	}
 </style>

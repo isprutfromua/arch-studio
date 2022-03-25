@@ -11,7 +11,7 @@
 <a
 	href="/about-us"
 	sveltekit:prefetch
-	class:active={url.pathname === "/about"}
+	class:active={url.pathname === "/about-us"}
 	class="hover:text-dark focus:text-dark">About Us</a
 >
 <a

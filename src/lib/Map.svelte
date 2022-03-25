@@ -15,6 +15,6 @@
 
 <style>
 	.map {
-		background-image: url("/contact/map.png");
+		background-image: url("/contact/map.webp");
 	}
 </style>

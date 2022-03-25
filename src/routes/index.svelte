@@ -44,7 +44,7 @@
 		bannerText="Small team,<br>big ideas"
 		bannerCtaText="About Us"
 		bannerCtaLink="/about"
-		--banner-image="url(/home/water.png)"
+		--banner-image="url(/home/water.webp)"
 	/>
 </div>
 

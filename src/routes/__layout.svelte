@@ -12,19 +12,17 @@
 
 	let visible = false;
 	onMount(function () {
-		setTimeout(() => {
-			visible = true;
-		}, 500);
+		visible = true;
 	});
 
 	export let url = "";
 </script>
 
 {#if visible}
-	<Navigation {url} />
-{/if}
+	<div in:fade={{ delay: 500, duration: 500 }}>
+		<Navigation {url} />
+	</div>
 
-{#if visible}
 	<div
 		class="min-h-min-100vh w-full grid grid-rows-1 grid-cols-1 anim-container"
 	>
