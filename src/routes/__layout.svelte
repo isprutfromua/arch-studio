@@ -14,7 +14,11 @@
 	import Observer from "$lib/Observer.svelte";
 
 	let visible = false;
-	onMount(() => (visible = true));
+	onMount(function () {
+		setTimeout(() => {
+			visible = true;
+		}, 500);
+	});
 
 	export let url = "";
 </script>

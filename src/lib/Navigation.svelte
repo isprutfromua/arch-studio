@@ -39,6 +39,7 @@
 		$mobile && y <= HEADER_HEIGHT
 			? HEADER_MAX_PADDING - y * MULTIPLIER
 			: HEADER_MIN_PADDING;
+	$: pageName = url.pathname.replace("/", "").replace("-", " ") || "Home";
 
 	const toggleMenu = () => (active = !active);
 </script>
@@ -46,8 +47,10 @@
 <svelte:window bind:scrollY={y} />
 
 <div
+	data-page={pageName}
 	style={$mobile ? `padding: ${padding}px` : ""}
-	class="bg-white flex py-14 items-center header-wrapper sticky sm:container sm:mx-auto <sm:p-8 <sm:relative"
+	class="bg-white flex py-14 nav-wrapper items-center header-wrapper sticky relative sm:container sm:mx-auto <sm:p-8"
+	before="text-grey-82 flex absolute bg-no-repeat pt-38 write-vertical-left -left-14 lg:-left-19 top-0 leading-4 text-15px tracking-1em uppercase content-[attr(data-page)] whitespace-nowrap"
 	in:fade
 >
 	<Logo />
@@ -92,6 +95,24 @@
 
 		.header-wrapper {
 			transition-property: padding;
+		}
+	}
+
+	.nav-wrapper::before {
+		background-image: linear-gradient(#c8ccd8, #c8ccd8);
+		background-size: 1px 104px;
+		background-position: top center;
+		animation: pager-appear 1.5s backwards;
+	}
+
+	@keyframes pager-appear {
+		0% {
+			background-size: 0 0;
+			color: transparent;
+		}
+
+		80% {
+			color: transparent;
 		}
 	}
 </style>

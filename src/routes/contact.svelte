@@ -14,6 +14,10 @@
 	} from "../data/contact";
 </script>
 
+<svelte:head>
+	<title>Contact</title>
+</svelte:head>
+
 <!-- About -->
 <div
 	class="flex flex-col-reverse welcome-banner relative sm:container sm:flex-row sm:mx-auto sm:mb-50 sm:min-h-720px sm:items-end <sm:mb-18 after:content-DEFAULT"

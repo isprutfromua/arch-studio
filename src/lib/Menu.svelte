@@ -9,7 +9,7 @@
 	class="hover:text-dark focus:text-dark ">Portfolio</a
 >
 <a
-	href="/about"
+	href="/about-us"
 	sveltekit:prefetch
 	class:active={url.pathname === "/about"}
 	class="hover:text-dark focus:text-dark">About Us</a
