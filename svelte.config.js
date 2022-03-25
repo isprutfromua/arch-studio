@@ -9,7 +9,11 @@ const config = {
 		}),
 	],
 	kit: {
-		adapter: adapter({ out: "public" }),
+		adapter: adapter({
+			pages: "build",
+			assets: "build",
+			fallback: null,
+		}),
 	},
 };
 
