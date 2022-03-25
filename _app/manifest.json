@@ -1,6 +1,6 @@
 {
   ".svelte-kit/runtime/client/start.js": {
-    "file": "start-31e56286.js",
+    "file": "start-8b7137e3.js",
     "src": ".svelte-kit/runtime/client/start.js",
     "isEntry": true,
     "imports": [
@@ -26,7 +26,7 @@
       "_ArrowIcon-f88b7e47.js"
     ],
     "css": [
-      "assets/pages/__layout.svelte-079a5bfd.css"
+      "assets/pages/__layout.svelte-636fd335.css"
     ],
     "assets": [
       "assets/spartan-latin-ext-700-normal-24e6885c.woff2",
@@ -47,7 +47,7 @@
     ]
   },
   "src/routes/index.svelte": {
-    "file": "pages/index.svelte-8516bcf1.js",
+    "file": "pages/index.svelte-01fbde0b.js",
     "src": "src/routes/index.svelte",
     "isEntry": true,
     "isDynamicEntry": true,
@@ -59,11 +59,11 @@
       "_ArrowIcon-f88b7e47.js"
     ],
     "css": [
-      "assets/pages/index.svelte-54c3cd41.css"
+      "assets/pages/index.svelte-37d82ac6.css"
     ]
   },
   "src/routes/portfolio.svelte": {
-    "file": "pages/portfolio.svelte-7d31648f.js",
+    "file": "pages/portfolio.svelte-14785951.js",
     "src": "src/routes/portfolio.svelte",
     "isEntry": true,
     "isDynamicEntry": true,
@@ -90,7 +90,7 @@
     ]
   },
   "src/routes/about.svelte": {
-    "file": "pages/about.svelte-355cf7ae.js",
+    "file": "pages/about.svelte-bf72e61a.js",
     "src": "src/routes/about.svelte",
     "isEntry": true,
     "isDynamicEntry": true,
@@ -99,7 +99,7 @@
       "_Title-4fee134f.js"
     ],
     "css": [
-      "assets/pages/about.svelte-196646f4.css"
+      "assets/pages/about.svelte-a9815db7.css"
     ]
   },
   "_vendor-2246c9f4.js": {
