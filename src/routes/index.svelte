@@ -44,14 +44,16 @@
 		bannerText="Small team,<br>big ideas"
 		bannerCtaText="About Us"
 		bannerCtaLink="/about"
-		--banner-image="url(home/water.png)"
+		--banner-image="url(/home/water.png)"
 	/>
 </div>
 
-<Features />
+<div class="container mx-auto mb-18 sm:mb-50 <sm:flex <sm:flex-col <sm:px-8">
+	<Features />
+</div>
 
 <style>
 	.welcome-banner::after {
-		background-image: url("home/welcome-to.jpg");
+		background-image: url("/home/welcome-to.jpg");
 	}
 </style>

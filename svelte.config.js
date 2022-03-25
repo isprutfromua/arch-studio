@@ -10,10 +10,12 @@ const config = {
 	],
 	kit: {
 		adapter: adapter({
-			pages: "build",
-			assets: "build",
-			fallback: null,
+			pages: "public",
+			assets: "public",
 		}),
+		prerender: {
+			default: true,
+		},
 	},
 };
 

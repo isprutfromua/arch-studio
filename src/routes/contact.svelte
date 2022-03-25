@@ -80,7 +80,7 @@
 
 <!-- form -->
 <div
-	class="mb-18 sm:container sm:mx-auto sm:mb-38 <sm:px-8 lg:flex lg:gap-7 lg:justify-start lg:items-start"
+	class="container mx-auto mb-18 sm:mb-50 <sm:px-8 lg:flex lg:gap-7 lg:justify-start lg:items-start"
 >
 	<div class="flex flex-col lg:w-full lg:max-w-21.87rem">
 		<Content contentHead={connectSection.head} />
@@ -109,6 +109,6 @@
 				rgba(0, 0, 0, 0.5),
 				rgba(0, 0, 0, 0.5)
 			),
-			url("contact/phone.png");
+			url("/contact/phone.png");
 	}
 </style>

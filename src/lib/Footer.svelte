@@ -4,7 +4,7 @@
 	import Button from "$lib/Button.svelte";
 </script>
 
-<footer class="mt-18 sm:mt-50 lg:container lg:mx-auto">
+<footer class="lg:container lg:mx-auto">
 	<div
 		class="bg-no-repeat flex flex-col pb-12 gap-y-8 items-center footer-bg md:(flex-row pb-0 gap-y-0 gap-x-8) "
 	>
@@ -14,7 +14,7 @@
 			<Logo />
 		</div>
 		<div
-			class="flex flex-col font-bold  text-center text-grey-53 gap-y-8 md:(flex-row gap-y-0 gap-x-8 mr-auto) md:gap-x-14 "
+			class="flex flex-col font-bold  text-center text-grey-53 gap-y-8 md:(flex-row gap-y-0 gap-x-8 mr-auto) lg:gap-x-14 "
 		>
 			<Menu />
 		</div>

@@ -13,22 +13,22 @@ export const leadersSection = {
 	head: "The<br>Leaders",
 	leaders: [
 		{
-			image: "about/Jake-Richards.jpg",
+			image: "/about/Jake-Richards.jpg",
 			name: "Jake Richards",
 			position: "Chief Architect",
 		},
 		{
-			image: "about/Thompson-Smith.jpg",
+			image: "/about/Thompson-Smith.jpg",
 			name: "Thompson Smiths",
 			position: "Head of Finance",
 		},
 		{
-			image: "about/Jackson-Rourke.jpg",
+			image: "/about/Jackson-Rourke.jpg",
 			name: "Jackson Rourke",
 			position: "Lead Designer",
 		},
 		{
-			image: "about/Maria-Simpson.jpg",
+			image: "/about/Maria-Simpson.jpg",
 			name: "Maria Simpson",
 			position: "Senior Architect",
 		},

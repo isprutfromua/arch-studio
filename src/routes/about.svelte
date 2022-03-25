@@ -54,7 +54,7 @@
 	</div>
 	<div class="flex-1 lg:max-w-33.75rem">
 		<img
-			src="about/heritage.jpg"
+			src="/about/heritage.jpg"
 			alt="heritage"
 			class="object-cover h-36rem w-full"
 		/>
@@ -63,7 +63,7 @@
 
 <!-- leaders -->
 <section
-	class="flex flex-col sm:container sm:mx-auto <sm:px-8 lg:flex-row lg:justify-between"
+	class="flex flex-col mb-18 sm:container sm:mx-auto sm:mb-50 <sm:px-8 lg:flex-row lg:justify-between"
 >
 	<h2
 		class="font-bold text-dark mb-7 tracking-tight text-2.5rem sm:mr-8 sm:text-3.5rem <lg:mb-14"
@@ -90,6 +90,6 @@
 				rgba(0, 0, 0, 0.5),
 				rgba(0, 0, 0, 0.5)
 			),
-			url("about/laptop.png");
+			url("/about/laptop.png");
 	}
 </style>

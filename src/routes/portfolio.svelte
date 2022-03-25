@@ -8,7 +8,7 @@
 	<title>Portfolio</title>
 </svelte:head>
 
-<div class="container mx-auto <sm:flex <sm:flex-col <sm:px-8">
+<div class="container mx-auto mb-18 sm:mb-50 <sm:flex <sm:flex-col <sm:px-8">
 	<div class="grid gap-7 lg:auto-rows-fr lg:gap-8 lg:grid-cols-3">
 		{#each portfolio as { name, date, image }, index}
 			<div
